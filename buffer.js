@@ -1,0 +1,3 @@
+//一个类array对象，主要用于操作字节
+const buf = new Buffer([0x62, 0x75, 0x66, 0x66, 0x65, 0x72]);
+console.log(buf.toString(),'buf')
